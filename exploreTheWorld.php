@@ -48,14 +48,14 @@ $long = $doc->photo->location[0][longitude];
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
+<title>Explore The World</title>
 
     <style>
       html, body, #map-canvas {
         height: 100vh;
         margin: 0px;
         padding: 0px;
-		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
       }
     </style>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
@@ -86,9 +86,6 @@ function addMarker(lat,long) {
   
   map.panTo(myLatlng);
 }
-
-
-
 google.maps.event.addDomListener(window, 'load', initialize);
 
     </script>
